@@ -20,7 +20,7 @@ public class NewDevGitAwsApplication extends SpringBootServletInitializer {
         SpringApplication.run(NewDevGitAwsApplication.class);
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/hello")
     public String helloWorld() {
         return "Hello World!";
     }
