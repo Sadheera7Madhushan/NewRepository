@@ -22,7 +22,7 @@ public class NewDevGitAwsApplication extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String helloWorld() {
-        return "Hello World!";
+        return "Hello Aws World!";
     }
 
 }
